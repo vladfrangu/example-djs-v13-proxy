@@ -1,0 +1,12 @@
+diff --git a/node_modules/discord.js/src/rest/APIRequest.js b/node_modules/discord.js/src/rest/APIRequest.js
+index d3b5d5e..4bbea87 100644
+--- a/node_modules/discord.js/src/rest/APIRequest.js
++++ b/node_modules/discord.js/src/rest/APIRequest.js
+@@ -1,6 +1,6 @@
+ 'use strict';
+ 
+-const https = require('node:https');
++const https = require('node:http');
+ const { setTimeout } = require('node:timers');
+ const FormData = require('form-data');
+ const fetch = require('node-fetch');

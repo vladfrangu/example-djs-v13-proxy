@@ -1,0 +1,16 @@
+{
+  "name": "temp_vox_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/proxy": "^1.4.1",
+    "discord.js": "^13.16.0",
+    "patch-package": "^7.0.0"
+  }
+}
